@@ -7,7 +7,7 @@
 <h3>Steps after installation:</h3>
 <hr>
 
-**Step A:**
+**Question 1:**
 
 _Create PostgreSQL, Explode Data to CSV, Create Table DataSubject and Import Data to Table from CSV:_
 
@@ -50,7 +50,7 @@ COPY "DataSubject"(subject,age,sex,test_time,motor_updrs,total_updrs,Jitterperce
 FROM 'C:\xampp\pgsql\parkinsons_updrs.csv' DELIMITER ',' CSV HEADER;
 ```
 
-**Step B: **
+**Question 2:**
 
 _Connect Databse HealthData with WEKA, Check for NULL strings or NULL numerics and change them to "NULL" and "0":_
 
