@@ -13,7 +13,7 @@ _Create PostgreSQL, Explode Data to CSV, Create Table DataSubject and Import Dat
 
 **A)** Rename the columns to an acceptable postgresql format
 
-**B)** Run a query to create the DB
+**B)** Run a query to create the Table
 
 ```mysql
 CREATE TABLE public."DataSubject"
